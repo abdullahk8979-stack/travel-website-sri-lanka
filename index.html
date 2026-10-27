@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel | Discover Sri Lanka</title>
+    <link rel="shortcut icon" href="assets/img/favicon.png" type="image/png">
+
+    <!--=============== REMIXICONS ===============-->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+
+    <!--=============== SWIPER CSS ===============-->
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body>
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav_logo">Travel</a>
+
+            <div class="nav_menu" id="nav-menu">
+                <ul class="nav_list">
+                    <li class="nav_item">
+                        <a href="#home" class="nav_link">Home</a>
+                    </li>
+                    <li class="nav_item">
+                        <a href="#about" class="nav_link">About</a>
+                    </li>
+                    <li class="nav_item">
+                        <a href="#discover" class="nav_link ">Discover</a>
+                    </li>
+                    <li class="nav_item">
+                        <a href="#place" class="nav_link ">Places</a>
+                    </li>
+                </ul>
+
+                <div class="nav_dark">
+                    <span class="change-theme-name">Dark mode</span>
+                    <i class="ri-moon-line change-theme" id="theme-button"></i>
+                </div>
+
+                <i class="ri-close-line nav_close" id="nav-close"></i>
+            </div>
+
+            <div class="nav_toggle" id="nav-toggle" role="button" tabindex="0" aria-controls="nav-menu" aria-expanded="false" aria-label="Open navigation">
+                <i class="ri-function-line"></i>
+            </div>
+        </nav>
+    </header>
+
+    <!--==================== HOME ====================-->
+    <section class="home" id="home">
+        <img src="assets/images/Background.jpg" alt="" class="home_img" loading="eager" fetchpriority="high" decoding="async">
+
+        <div class="home_container container grid">
+            <div class="home_data">
+                <span class="home_data-subtitle">Discover your place</span>
+                <h1 class="home_data-title">ISLAND<br><b>ESCAPE<br>WITH YOU</b></h1>
+                <a href="#discover" class="button">Explore More <i class="ri-arrow-right-line"></i></a>
+            </div>
+
+            <div class="home_social">
+                <a href="https://www.facebook.com/" target="_blank" class="home_social-link">
+                    <i class="ri-facebook-box-fill"></i>
+                </a>
+                <a href="https://www.instagram.com/" target="_blank" class="home_social-link">
+                    <i class="ri-instagram-fill"></i>
+                </a>
+                <a href="https://twitter.com/" target="_blank" class="home_social-link">
+                    <i class="ri-twitter-fill"></i>
+                </a>
+            </div>
+
+            <div class="home_info">
+                <div class="button">
+                    <div>
+                        <span class="home_info-title">5 best places to visit</span>
+                        <a href="" class="button button--flex button--link home_info-button">
+                            More.. <i class="ri-arrow-right-line"></i>
+                        </a>
+                    </div>
+                    <div class="home_info-overlay">
+                        <img src="assets/images/Background small.jpg" alt="" class="home_info-img" loading="lazy" decoding="async">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--==================== ABOUT ====================-->
+    <section class="about section" id="about">
+        <div class="about_container container grid">
+            <div class="about_data">
+                <h3 class=" about">About</h3>
+                <h2 class="section_title about_title"><b>Welcome to Sri Lanka</b></h2>
+                <p class="about_description">See what's waiting for you on your next island getaway.
+                    Savour the unique experiences this island treasure has to offer. You can find the
+                    most beautiful andpleasant prices with special discounts, you choose the place we
+                    will gude you all the way to wait , get your place now.</p>
+                <a href="#place" class="button js-book-trigger">Reserve a place</a>
+            </div>
+
+            <div class="about_img">
+                <div class="about_img-overlay">
+                    <img src="assets/images/About.jpg" alt="" class="about_img-one" loading="lazy" decoding="async">
+                </div>
+                <div class="about_img-overlay">
+                    <img src="assets/images/about 1.jpg" alt="" class="about_img-two" loading="lazy" decoding="async">
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!--==================== DISCOVER ====================-->
+
+    <section class="discover section" id="discover">
+        <h2 class="section_title"><b>Discover the most <br> attraction places</b></h2>
+
+        <div class="discover_container container swiper-container">
+            <div class="swiper-wrapper">
+                <!--==================== DISCOVER 1 ====================-->
+
+                <div class="discover_card swiper-slide">
+                    <img src="assets/images/balapitiya.jpg" alt="" class="discover_img" loading="lazy" decoding="async">
+                    <div class="discover_data">
+                        <h2 class="discover_title">balapitiya</h2>
+                        <span class="discover_description">24 tours available</span>
+                    </div>
+                </div>
+                <!--==================== DISCOVER 2 ====================-->
+
+                <div class="discover_card swiper-slide">
+                    <img src="assets/images/galle.jpg" alt="" class="discover_img" loading="lazy" decoding="async">
+                    <div class="discover_data">
+                        <h2 class="discover_title">Galle</h2>
+                        <span class="discover_description">15 tours available</span>
+                    </div>
+                </div>
+
+                <!--==================== DISCOVER 3 ====================-->
+
+                <div class="discover_card swiper-slide">
+                    <img src="assets/images/unawatuna.jpg" alt="" class="discover_img" loading="lazy" decoding="async">
+                    <div class="discover_data">
+                        <h2 class="discover_title">unawatuna</h2>
+                        <span class="discover_description">24 tours available</span>
+                    </div>
+                </div>
+
+                <!--==================== DISCOVER 4 ====================-->
+
+                <div class="discover_card swiper-slide">
+                    <img src="assets/images/weligama.jpg" alt="" class="discover_img" loading="lazy" decoding="async">
+                    <div class="discover_data">
+                        <h2 class="discover_title">weligama</h2>
+                        <span class="discover_description">24 tours available</span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+
+    <!--==================== EXPERIENCE ====================-->
+
+    <section class="experience section" id="experience">
+        <h2 class="section_title"><b>With Our experience <br> we will Serve You</b></h2>
+
+        <div class="experience_container container grid">
+            <div class="experience_content grid">
+                <div class="experience_data">
+                    <h2 class="experience_number">20</h2>
+                    <span class="experience_description">Year <br> Experience</span>
+                </div>
+
+                <div class="experience_data">
+                    <h2 class="experience_number">75</h2>
+                    <span class="experience_description">Complete <br> tour</span>
+                </div>
+
+                <div class="experience_data">
+                    <h2 class="experience_number">650+</h2>
+                    <span class="experience_description">Tourist <br>Destintion</span>
+                </div>
+            </div>
+
+            <div class="experience_img grid">
+                <div class="experience_overlay">
+                    <img src="assets/images/Experience 2.jpg" alt="" class="experience_img-one" loading="lazy" decoding="async">
+                </div>
+                <div class="experience_overlay">
+                    <img src="assets/images/Experience.jpg" alt="" class="experience_img-two" loading="lazy" decoding="async">
+                </div>
+            </div>
+        </div>
+
+
+    </section>
+
+
+
+    <!--==================== VIDEO ====================-->
+    <section class="video section" id="video">
+        <h2 class="section_title"><b>Video Tour</b></h2>
+
+        <div class="video_container container">
+            <p class="video_description">Find out more with our video of the most
+                beautiful and pleasant places for you and your family.</p>
+
+            <div class="video_content">
+                <video id="video-file" playsinline preload="metadata" controls>
+                    <source src="assets/video/Video Tour.mp4">
+                </video>
+                <button class="button button--flex video_button" id="video-button">
+                    <i class="ri-play-line video_button-icon" id="video-icon"></i>
+                </button>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <!--==================== PLACES ====================-->
+    <section class="place section" id="place">
+        <h2 class="section_title"><b>Choose Place</b></h2>
+
+        <div class="place_container container grid">
+
+            <!--==================== PLACES CARD 1 ====================-->
+            <div class="place_card">
+                <img src="assets/images/balapitiya.jpg" alt="" class="place_img" loading="lazy" decoding="async">
+
+                <div class="place_content">
+                    <span class="place_rating">
+                        <i class="ri-star-line place_rating-icon"></i>
+                        <span class="place_rating-number">4.8</span>
+                    </span>
+                    <div class="place_data">
+                        <h3 class="place_title">Balapitiya</h3>
+                        <span class="place_subtitle">Sri lanka</span>
+                        <span class="place_price">$2399</span>
+                    </div>
+                </div>
+
+                <button class="button button--flex place_button">
+                    <i class="ri-arrow-right-line"></i>
+                </button>
+            </div>
+
+
+            <!--==================== PLACES CARD 2 ====================-->
+
+            <div class="place_card">
+                <img src="assets/images/galle.jpg" alt="" class="place_img" loading="lazy" decoding="async">
+
+                <div class="place_content">
+                    <span class="place_rating">
+                        <i class="ri-star-line place_rating-icon"></i>
+                        <span class="place_rating-number">5.0</span>
+                    </span>
+                    <div class="place_data">
+                        <h3 class="place_title">Galle</h3>
+                        <span class="place_subtitle">Sri lanka</span>
+                        <span class="place_price">$1399</span>
+                    </div>
+                </div>
+
+                <button class="button button--flex place_button">
+                    <i class="ri-arrow-right-line"></i>
+                </button>
+            </div>
+
+
+            <!--==================== PLACES CARD 3 ====================-->
+            <div class="place_card">
+                <img src="assets/images/unawatuna.jpg" alt="" class="place_img" loading="lazy" decoding="async">
+
+                <div class="place_content">
+                    <span class="place_rating">
+                        <i class="ri-star-line place_rating-icon"></i>
+                        <span class="place_rating-number">4.8</span>
+                    </span>
+                    <div class="place_data">
+                        <h3 class="place_title">Unawatuna</h3>
+                        <span class="place_subtitle">Sri lanka</span>
+                        <span class="place_price">$2099</span>
+                    </div>
+                </div>
+
+                <button class="button button--flex place_button">
+                    <i class="ri-arrow-right-line"></i>
+                </button>
+            </div>
+
+
+
+            <!--==================== PLACES CARD 4 ====================-->
+            <div class="place_card">
+                <img src="assets/images/weligama.jpg" alt="" class="place_img" loading="lazy" decoding="async">
+
+                <div class="place_content">
+                    <span class="place_rating">
+                        <i class="ri-star-line place_rating-icon"></i>
+                        <span class="place_rating-number">4.9</span>
+                    </span>
+                    <div class="place_data">
+                        <h3 class="place_title">Weligama</h3>
+                        <span class="place_subtitle">Sri lanka</span>
+                        <span class="place_price">$1509</span>
+                    </div>
+                </div>
+
+                <button class="button button--flex place_button">
+                    <i class="ri-arrow-right-line"></i>
+                </button>
+            </div>
+
+
+            <!--==================== PLACES CARD 5 ====================-->
+            <div class="place_card">
+                <img src="assets/images/Galle face.jpg" alt="" class="place_img" loading="lazy" decoding="async">
+
+                <div class="place_content">
+                    <span class="place_rating">
+                        <i class="ri-star-line place_rating-icon"></i>
+                        <span class="place_rating-number">3.8</span>
+                    </span>
+                    <div class="place_data">
+                        <h3 class="place_title">Galle face</h3>
+                        <span class="place_subtitle">Sri lanka</span>
+                        <span class="place_price">$1899</span>
+                    </div>
+                </div>
+
+                <button class="button button--flex place_button">
+                    <i class="ri-arrow-right-line"></i>
+                </button>
+            </div>
+
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+    <!--==================== SUBSCRIBE ====================-->
+
+    <section class="subscribe section"id="subscribe">
+        <div class="subscribe_bg">
+            <div class="subscribe_container container">
+                <h2 class="section_title subscribe_title"><b>Subscribe Our <br> Newsletter</b></h2>
+                <p class="subscribe_description">Subscribe to our Newsletter and get a special 30% discount.</p>
+
+                <form action="" class="subscribe_form">
+                    <input type="text" placeholder="Enter email" class="subscribe_input">
+
+                    <button class="button">
+                        Subscribe
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!--==================== SPONSORS ====================-->
+
+    <section class="sponsor section"id="sponsor">
+        <div class="sponsor_container container grid">
+            <div class="sponsor_content1">
+                <img src="assets/images/sponsors1.png" alt="" class="sponsor_img" loading="lazy" decoding="async">
+            </div>
+
+            <div class="sponsor_content2">
+                <img src="assets/images/sponsors2.png" alt="" class="sponsor_img" loading="lazy" decoding="async">
+            </div>
+
+            <div class="sponsor_content3">
+                <img src="assets/images/sponsors3.png" alt="" class="sponsor_img" loading="lazy" decoding="async">
+            </div>
+
+            <div class="sponsor_content4">
+                <img src="assets/images/sponsors4.png" alt="" class="sponsor_img" loading="lazy" decoding="async">
+            </div>
+
+            <div class="sponsor_content5">
+                <img src="assets/images/sponsors5.png" alt="" class="sponsor_img" loading="lazy" decoding="async">
+            </div>
+
+        </div>
+    </section>
+
+
+
+
+    <!--==================== FOOTER ====================-->
+    <footer class="footer section"id="footer">
+        <div class="footer_container container grid">
+            <div class="footer_content grid">
+                <div class="footer_data">
+                    <h3 class="footer_title">Travel</h3>
+                    <p class="footer_description">Traval you choose the <br> destination, we offer yout the <br>
+                        experience. </p>
+
+                    <div class>
+                        <a href="#" target="_blank" class="footer_social">
+                            <i class="ri-facebook-box-fill"></i>
+                        </a>
+                        <a href="#" target="_blank" class="footer_social">
+                            <i class="ri-twitter-fill"></i>
+                        </a>
+                        <a href="#" target="_blank" class="footer_social">
+                            <i class="ri-instagram-fill"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="footer_data">
+                    <h3 class="footer_subtitle">About</h3>
+                    <ul>
+                        <li class="footer_item">
+                            <a href="" class="footer_link">About Us</a>
+                        </li>
+                        <li class="footer_item">
+                            <a href="" class="footer_link">Features</a>
+                        </li>
+                        <li class="footer_item">
+                            <a href="" class="footer_link">New & Blog</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="footer_data">
+                    <h3 class="footer_subtitle">Company</h3>
+                    <ul>
+                        <li class="footer_item">
+                            <a href="" class="footer_link">Team</a>
+                        </li>
+                        <li class="footer_item">
+                            <a href="" class="footer_link">Plan Y pricing</a>
+                        </li>
+                        <li class="footer_item">
+                            <a href="" class="footer_link">Become a Member</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="footer_data">
+                    <h3 class="footer_subtitle">Support</h3>
+                    <ul>
+                        <li class="footer_item">
+                            <a href="" class="footer_link">FAQs</a>
+                        </li>
+                        <li class="footer_item">
+                            <a href="" class="footer_link">Support Center</a>
+                        </li>
+                        <li class="footer_item">
+                            <a href="" class="footer_link">Contct us</a>
+                        </li>
+                    </ul>
+                </div>
+
+
+            </div>
+
+            <div class="footer_right">
+                <p class="footer_copy">&#169; 2026 Monstarff. All rights reserved. </p>
+                <div class="footer_terms">
+                    <a href="#" class="footer_terms-link">Terms & Agreement</a>
+                    <a href="#" class="footer_terms-link">Privacy Policy</a>
+                </div>
+            </div>
+
+
+        </div>
+    </footer>
+
+
+    <!--========== SCROLL UP ==========-->
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class="ri-arrow-right-line scrollup_icon"></i>
+    </a>
+
+
+    <!--=============== SCROLL REVEAL===============-->
+    <script src="assets/js/scrollreveal.min.js"></script>
+
+    <!--=============== SWIPER JS ===============-->
+    <script src="assets/js/swiper-bundle.min.js"></script>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="assets/js/main.js"></script>
+
+
+</body>
+
+</html>

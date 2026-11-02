@@ -15,6 +15,8 @@
 
 **[Explore the live website →](https://travel-website-sri-lanka.vercel.app/)**
 
+![Travel website homepage](screenshots/homepage.png)
+
 </div>
 
 ---
